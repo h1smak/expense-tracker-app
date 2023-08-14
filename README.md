@@ -7,7 +7,7 @@ The Flutter expense tracker is a user-friendly mobile application designed to ef
 <img src="media/main-paige-light.jpg" width="400">
 
 - Main Page(dark)<br>
-<img src="media/main-paige-dark.jpg" width="400">
+<img src="media/main-page-dark.jpg" width="400">
 
 - Add new expense(light)<br>
 <img src="media/add-light.jpg" width="400">

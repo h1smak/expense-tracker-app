@@ -140,7 +140,9 @@ class _NewExpenseState extends State<NewExpense> {
                   Row(
                     children: [
                       Expanded(
-                        child: Amount(amountController: _amountController),
+                        child: Amount(
+                          amountController: _amountController,
+                        ),
                       ),
                       Expanded(
                         child: DatePicker(

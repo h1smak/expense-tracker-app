@@ -7,25 +7,23 @@ class DatePicker extends StatelessWidget {
 
   final DateTime? selectedDate;
   final Function() presentDatePicker;
-  
+
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.end,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Text(
-            selectedDate == null
-                ? 'No date selected'
-                : formatter.format(selectedDate!),
-          ),
-          IconButton(
-            onPressed: presentDatePicker,
-            icon: const Icon(Icons.calendar_month),
-          ),
-        ],
-      ),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Text(
+          selectedDate == null
+              ? 'No date selected'
+              : formatter.format(selectedDate!),
+        ),
+        IconButton(
+          onPressed: presentDatePicker,
+          icon: const Icon(Icons.calendar_month),
+        ),
+      ],
     );
   }
 }

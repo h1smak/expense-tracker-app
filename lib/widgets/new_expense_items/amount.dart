@@ -7,14 +7,12 @@ class Amount extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: TextField(
-        controller: amountController,
-        keyboardType: TextInputType.number,
-        decoration: const InputDecoration(
-          prefixText: '\$ ',
-          label: Text('Amount'),
-        ),
+    return TextField(
+      controller: amountController,
+      keyboardType: TextInputType.number,
+      decoration: const InputDecoration(
+        prefixText: '\$ ',
+        label: Text('Amount'),
       ),
     );
   }

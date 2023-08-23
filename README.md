@@ -1,6 +1,19 @@
-# expense_tracker
+# Expense Tracker
 
-A new Flutter project.
+The Flutter expense tracker is a user-friendly mobile application designed to efficiently monitor and manage personal finances through intuitive interfaces and real-time expense logging.
+
+## Screenshots
+- Main Page(light)<br>
+<img src="media/main-paige-light.jpg" width="400">
+
+- Main Page(dark)<br>
+<img src="media/main-page-dark.jpg" width="400">
+
+- Add new expense(light)<br>
+<img src="media/add-light.jpg" width="400">
+
+- Add new expense(dark)<br>
+<img src="media/add-dark.jpg" width="400">
 
 ## Getting Started
 
